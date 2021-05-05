@@ -10,7 +10,7 @@ import java.util.Set;
  * Created by gs on 04/05/2021.
  **/
 @Service
-public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
+public class VetMapService extends AbstractMapService<Vet> implements VetService {
     @Override
     public Vet findById(Long id) {
         return super.findById(id);

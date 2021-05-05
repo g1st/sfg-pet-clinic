@@ -10,7 +10,7 @@ import java.util.Set;
  * Created by gs on 04/05/2021.
  **/
 @Service
-public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
+public class OwnerMapService extends AbstractMapService<Owner> implements OwnerService {
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
